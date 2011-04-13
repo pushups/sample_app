@@ -20,9 +20,3 @@ class String
 		self.split('').shuffle.join
 	end
 end
-
-person1 = {:first => 'Ross', :last => 'Williams'}
-person2 = { :first => 'Madeline', :last => 'Doucas' }
-person3 = { :first => 'Michael', :last => 'Williams' }
-
-params = { :father => person1, :mother => person2, :child => person3} 
